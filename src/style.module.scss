@@ -1,0 +1,27 @@
+@import "variables.modules";
+
+
+
+.main {
+  display: flex;
+  background: $color;
+  height: 100vh;
+}
+.main_navigation{
+  width: 20%;
+  height: 100vh;
+}
+.main_content{
+  width: 80%;
+  height: 100vh;
+}
+.navigat{
+  color: $whight_color;
+  text-align: center;
+  & a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+

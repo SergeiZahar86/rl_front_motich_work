@@ -1,0 +1,13 @@
+@import "./../../variables.modules.scss";
+
+
+
+.navigat{
+  color: $whight_color;
+  text-align: center;
+  & a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
