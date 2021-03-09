@@ -4,16 +4,16 @@
 
 .main {
   display: flex;
-  background: $color;
+  background: white;
   height: 100vh;
 }
 .main_navigation{
+  background: $color;
   width: 20%;
-  height: 100vh;
 }
 .main_content{
   width: 80%;
-  height: 100vh;
+  height: 20px;
 }
 .navigat{
   color: $whight_color;
@@ -22,6 +22,16 @@
     text-decoration: none;
     font-weight: 700;
     font-size: 20px;
+    coor: inherit;
   }
 }
+.header{
+  background: gold !important;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
 
+}
+.nv{
+  padding: 20px;
+}
